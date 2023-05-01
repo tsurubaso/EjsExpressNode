@@ -1,0 +1,17 @@
+{
+  "name": "ejsexpressnode",
+  "version": "1.0.0",
+  "description": "Just a tutorial training you can find tutorial here :https://www.youtube.com/watch?v=Zk7tpzaKv0U ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "tsurubaso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
