@@ -11,4 +11,6 @@ router.get("/", (req, res) => {
       res.send("user  info");
     });
 
+    router.get("/:id",(req,res)=>{res.send(`${req.params.id} information was obtained successfully`)});
+
     module.exports = router;
